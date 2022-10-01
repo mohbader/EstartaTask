@@ -1,8 +1,8 @@
 package com.estarta.task.domain.repository
 
-import com.estarta.task.data.model.ResultData
+import com.estarta.task.data.model.HomeData
 
 interface HomeRepository {
 
-    fun getHomeData(): List<ResultData>
+    fun getHomeData(): HomeData
 }

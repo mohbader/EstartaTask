@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EstartaTask</string>
+    <string name="name_title">Name:</string>
+    <string name="price_title">price:</string>
 </resources>
