@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="item"
             type="com.estarta.task.data.model.Item" />
@@ -13,7 +12,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         <ImageView
             android:id="@+id/details_item_image_image_view"
@@ -100,7 +98,6 @@
             app:layout_constraintStart_toEndOf="@+id/details_item_uid_title_text_view"
             app:layout_constraintTop_toTopOf="@+id/details_item_uid_title_text_view"
             tools:text="test" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

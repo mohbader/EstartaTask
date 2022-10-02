@@ -14,6 +14,7 @@
             android:id="@+id/action_homeFragment_to_itemDetailsFragment"
             app:destination="@id/itemDetailsFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/itemDetailsFragment"
         android:name="com.estarta.task.presentation.items_details.ItemDetailsFragment"
