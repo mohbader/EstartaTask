@@ -7,7 +7,7 @@ class HomeRepositoryImp(
     private val homeRemoteDataSource: HomeRemoteDataSource
 ) : HomeRepository {
 
-    override fun getHomeData(): HomeData {
+    override suspend fun getHomeData(): HomeData {
         return homeRemoteDataSource.getHomeData()
     }
 

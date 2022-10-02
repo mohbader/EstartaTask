@@ -30,7 +30,7 @@ class HomeViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             _loadingLiveData.postValue(true)
             try {
-                _homeDataLiveData.postValue(getHomeDataUseCase.invoke())
+                _homeDataLiveData.postValue(getHomeDataUseCase.getHomeData())
             } catch (e: Exception) {
                 _onErrorLiveData.postValue(e.message)
             }

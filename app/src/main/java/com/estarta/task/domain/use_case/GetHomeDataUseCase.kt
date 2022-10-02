@@ -7,7 +7,7 @@ class GetHomeDataUseCase(
     private val homeRepository: HomeRepository
 ) {
 
-    operator fun invoke(): HomeData {
+   suspend fun getHomeData(): HomeData {
         return homeRepository.getHomeData()
     }
 }

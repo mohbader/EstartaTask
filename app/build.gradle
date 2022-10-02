@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'com.google.dagger.hilt.android'
     id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -74,6 +75,10 @@ dependencies {
     //navigation
     implementation "androidx.navigation:navigation-fragment-ktx:2.5.2"
     implementation "androidx.navigation:navigation-ui-ktx:2.5.2"
+
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.14.1'
+    kapt 'com.github.bumptech.glide:compiler:4.14.1'
 
 
 }

@@ -4,5 +4,5 @@ import com.estarta.task.data.model.HomeData
 
 interface HomeRepository {
 
-    fun getHomeData(): HomeData
+   suspend fun getHomeData(): HomeData
 }

@@ -6,5 +6,5 @@ import retrofit2.http.GET
 interface HomeRemoteDataSource {
 
     @GET("default/dynamodb-writer")
-    fun getHomeData(): HomeData
+    suspend fun getHomeData(): HomeData
 }
